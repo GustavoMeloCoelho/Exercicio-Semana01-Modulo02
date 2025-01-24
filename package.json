@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Back-end de um sistema de folha de pagamento.",
   "main": "index.js",
-  
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.3.2",
+    "prompt-sync": "^4.2.0"
+  }
 }
